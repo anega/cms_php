@@ -35,6 +35,10 @@ function exponent($a) {
   return exp($a);
 }
 
+function factorial($a) {
+  return gmp_fact($a);
+}
+
 // Trigonometric math
 function sine($a) {
   return sin($a);
